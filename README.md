@@ -10,12 +10,16 @@ A cleaned-up, rebuilt take on Xiaomi’s stock **Complex LCD** layout: eight col
 
 Grab **`ComplexLCDPlus.face`** from the [latest Release](https://github.com/geeks0n-byte/complex-lcd-plus/releases/latest).
 
-## Install
+## Install (minstall)
 
-1. Install with **Mi Fitness / Xiaomi Wear** (custom watch face / local file), or another Band 10 Pro face installer that accepts `.face` packages.
-2. Pick a color style on the band after install.
-3. Face id: `29100101` (installs separately from stock Complex LCD).
+Install with [minstall](https://github.com/HyperionD/minstall) — direct Bluetooth install for Band 10 Pro, no official app needed.
 
+1. Install the minstall APK from its [Releases](https://github.com/HyperionD/minstall/releases) (Android; there's also a Linux desktop build).
+2. Get your band's authkey: in Mi Fitness, open **Profile → About**, tap the app icon at the top repeatedly, confirm the log export, then use minstall's **Auto-detect** (or copy the `encryptKey` value from `Download/wearablelog/*.zip`).
+3. Close Mi Fitness, then in minstall enter the band MAC + authkey and tap **Connect & authenticate**.
+4. Pick `ComplexLCDPlus.face` and tap install; wait for the band to confirm.
+
+Face id: `29100101` (installs separately from stock Complex LCD).
 ## What’s included
 
 | | |
@@ -39,3 +43,4 @@ Unofficial fan face. **Not affiliated with Xiaomi.** Layout and many assets are 
 ## License
 
 Source for the EasyFace project is not published in this repo — release binaries and preview images only. See Releases for the installable `.face`.
+
