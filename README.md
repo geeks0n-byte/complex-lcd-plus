@@ -39,8 +39,3 @@ Face id: `29100101` (installs separately from stock Complex LCD).
 ## Disclaimer
 
 Unofficial fan face. **Not affiliated with Xiaomi.** Layout and many assets are derived from the stock Complex LCD face; redistribute and use at your own risk. Xiaomi names and trademarks belong to their owners.
-
-## License
-
-Source for the EasyFace project is not published in this repo — release binaries and preview images only. See Releases for the installable `.face`.
-
