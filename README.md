@@ -1,4 +1,4 @@
-﻿# Complex LCD+
+# Complex LCD+
 
 Custom watch face for **Xiaomi Smart Band 10 Pro** (336×480), version **1.0**.
 
