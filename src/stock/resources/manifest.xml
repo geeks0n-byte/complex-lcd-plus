@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Watchface name="@watchfaceName" width="336" height="480" id="29102701" SKU="false" compressMethod="RLEReversed" advanced="false" interactive="false" support_literal="false" editable="false">
+    <Resources>
+        <Translation name="watchfaceName">
+            <Item language="en_US" str="Complex LCD Next"/>
+            <Item language="zh_CN" str="复杂数据液晶"/>
+            <Item language="zh_TW" str="複雜資料液晶"/>
+            <Item language="ja_JP" str="コンプレックスLCD"/>
+            <Item language="es_ES" str="LCD complejo"/>
+            <Item language="fr_FR" str="Complex LCD Next"/>
+            <Item language="de_DE" str="Komplexes LCD"/>
+            <Item language="ru_RU" str="Комплексный LCD"/>
+            <Item language="pt_BR" str="LCD complexo"/>
+            <Item language="pt_PT" str="LCD complexo"/>
+            <Item language="it_IT" str="LCD complesso"/>
+            <Item language="ko_KR" str="컴플렉스 LCD"/>
+            <Item language="tr_TR" str="Kompleks LCD"/>
+            <Item language="nl_NL" str="Complex LCD Next"/>
+            <Item language="th_TH" str="LCD ซับซ้อน"/>
+            <Item language="sv_SE" str="Komplex LCD"/>
+            <Item language="da_DK" str="Kompleks LCD"/>
+            <Item language="vi_VN" str="LCD phức hợp"/>
+            <Item language="nb_NO" str="Kompleks LCD"/>
+            <Item language="pl_PL" str="Complex LCD Next"/>
+            <Item language="fi_FI" str="Complex LCD Next"/>
+            <Item language="in_ID" str="LCD kompleks"/>
+            <Item language="el_GR" str="Σύνθετη LCD"/>
+            <Item language="ro_RO" str="LCD complex"/>
+            <Item language="cs_CZ" str="Komplexní LCD"/>
+            <Item language="uk_UA" str="Комплексний РК"/>
+            <Item language="sk_SK" str="Komplexné LCD"/>
+            <Item language="hu_HU" str="Komplex LCD"/>
+            <Item language="ar_EG" str="شاشات LCD معقدة"/>
+            <Item language="iw_IL" str="LCD מורכב"/>
+            <Item language="zh_HK" str="複雜資料液晶"/>
+            <Item language="bg_BG" str="Complex LCD Next"/>
+        </Translation>
+        <Image name="Image1" src="_preview/样式1亮屏预览图.png" compressMethod="RLEReversed" format="indexed8"/>
+        <Image name="Image2" src="23fd149.png" compressMethod="RLEReversed" format="indexed8"/>
+        <Image name="Image3" src="37a8ef7.png" compressMethod="RLEReversed" format="indexed8"/>
+        <Image name="Image4" src="2764c7f.png" compressMethod="RLEReversed" format="indexed8"/>
+        <Image name="Image5" src="bfc2729.png" compressMethod="RLEReversed" format="indexed8"/>
+        <Image name="Image6" src="f8782d4.png" compressMethod="RLEReversed" format="indexed8"/>
+        <Image name="Image7" src="921e087.png" compressMethod="RLEReversed" format="indexed8"/>
+        <Image name="Image8" src="4fe8d11.png" compressMethod="RLEReversed" format="indexed8"/>
+        <Image name="Image9" src="f09972d.png" compressMethod="RLEReversed" format="indexed8"/>
+        <Image name="Image10" src="34cf4a5.png" compressMethod="RLEReversed" format="indexed8"/>
+        <Image name="Image11" src="1b4140b.png" compressMethod="RLEReversed" format="indexed8"/>
+        <Image name="Image12" src="1292eb9.png" compressMethod="RLEReversed" format="indexed8"/>
+        <Image name="Image13" src="b113652.png" compressMethod="RLEReversed" format="indexed8"/>
+        <Image name="Image14" src="dc12273.png" compressMethod="RLEReversed" format="indexed8"/>
+        <ImageArray name="ImageArray1" compressMethod="RLEReversed" format="indexed8">
+            <Image src="163复杂数据液晶/5e9e5aa.png"/>
+            <Image src="163复杂数据液晶/fc0464b.png"/>
+            <Image src="163复杂数据液晶/eb4f1df.png"/>
+            <Image src="163复杂数据液晶/84660a3.png"/>
+            <Image src="163复杂数据液晶/660ebe9.png"/>
+            <Image src="163复杂数据液晶/e19276b.png"/>
+            <Image src="163复杂数据液晶/ca64564.png"/>
+            <Image src="163复杂数据液晶/0a6ffa0.png"/>
+            <Image src="163复杂数据液晶/7bb6814.png"/>
+            <Image src="163复杂数据液晶/9f99352.png"/>
+        </ImageArray>
+        <ImageArray name="ImageArray2" compressMethod="RLEReversed" format="indexed8">
+            <Image src="163复杂数据液晶/5e9e5aa.png"/>
+            <Image src="163复杂数据液晶/fc0464b.png"/>
+            <Image src="163复杂数据液晶/eb4f1df.png"/>
+            <Image src="163复杂数据液晶/84660a3.png"/>
+            <Image src="163复杂数据液晶/660ebe9.png"/>
+            <Image src="163复杂数据液晶/e19276b.png"/>
+            <Image src="163复杂数据液晶/ca64564.png"/>
+            <Image src="163复杂数据液晶/0a6ffa0.png"/>
+            <Image src="163复杂数据液晶/7bb6814.png"/>
+            <Image src="163复杂数据液晶/9f99352.png"/>
+            <Image src="resources/cf0524d.png"/>
+        </ImageArray>
+        <ImageArray name="ImageArray3" compressMethod="RLEReversed" format="indexed8">
+            <Image src="163复杂数据液晶/f75bd57.png"/>
+            <Image src="163复杂数据液晶/597a3ac.png"/>
+            <Image src="163复杂数据液晶/b3273ba.png"/>
+            <Image src="163复杂数据液晶/95c7b07.png"/>
+            <Image src="163复杂数据液晶/eb3e7fe.png"/>
+            <Image src="163复杂数据液晶/dd97da5.png"/>
+            <Image src="163复杂数据液晶/aaa3e3a.png"/>
+        </ImageArray>
+        <ImageArray name="ImageArray4" compressMethod="RLEReversed" format="indexed8">
+            <Image src="date/4b6d515.png"/>
+            <Image src="date/b4904f9.png"/>
+            <Image src="date/17e5e54.png"/>
+            <Image src="date/f8901cf.png"/>
+            <Image src="date/ec4f10c.png"/>
+            <Image src="date/354e33b.png"/>
+            <Image src="date/cb850b2.png"/>
+            <Image src="date/e1105b9.png"/>
+            <Image src="date/7c06f04.png"/>
+            <Image src="date/09967bb.png"/>
+        </ImageArray>
+        <ImageArray name="ImageArray5" compressMethod="RLEReversed" format="indexed8">
+            <Image src="P67 表盘/7a3950b.png"/>
+            <Image src="P67 表盘/67f0fa7.png"/>
+            <Image src="P67 表盘/7e0e89c.png"/>
+            <Image src="P67 表盘/972a5e4.png"/>
+            <Image src="P67 表盘/fb4115e.png"/>
+            <Image src="P67 表盘/0873788.png"/>
+            <Image src="P67 表盘/ef4698e.png"/>
+            <Image src="P67 表盘/5a032d1.png"/>
+            <Image src="P67 表盘/b5d3990.png"/>
+            <Image src="P67 表盘/3efc345.png"/>
+            <Image src="P67 表盘/20bfe42.png"/>
+        </ImageArray>
+        <ImageArray name="ImageArray6" compressMethod="RLEReversed" format="indexed8">
+            <Image src="163复杂数据液晶/a4b9e32.png"/>
+            <Image src="163复杂数据液晶/e5bf8f0.png"/>
+            <Image src="163复杂数据液晶/eba734d.png"/>
+            <Image src="163复杂数据液晶/16f7f2e.png"/>
+            <Image src="163复杂数据液晶/069b635.png"/>
+            <Image src="163复杂数据液晶/fb2fa19.png"/>
+            <Image src="163复杂数据液晶/d463444.png"/>
+            <Image src="163复杂数据液晶/d6c9431.png"/>
+            <Image src="163复杂数据液晶/2dc5f96.png"/>
+            <Image src="163复杂数据液晶/e0ec0af.png"/>
+        </ImageArray>
+        <ImageArray name="ImageArray7" compressMethod="RLEReversed" format="indexed8">
+            <Image src="163复杂数据液晶/9891763.png"/>
+            <Image src="163复杂数据液晶/047f6b5.png"/>
+            <Image src="163复杂数据液晶/e81c8a1.png"/>
+            <Image src="163复杂数据液晶/e7fffee.png"/>
+            <Image src="163复杂数据液晶/72a8948.png"/>
+            <Image src="163复杂数据液晶/ad9c98f.png"/>
+            <Image src="163复杂数据液晶/36b6203.png"/>
+            <Image src="163复杂数据液晶/a1f55f2.png"/>
+            <Image src="163复杂数据液晶/c1218b1.png"/>
+            <Image src="163复杂数据液晶/59b46b2.png"/>
+        </ImageArray>
+        <ImageArray name="ImageArray8" compressMethod="RLEReversed" format="indexed8">
+            <Image src="163其余切图/d2415aa.png"/>
+            <Image src="163其余切图/3f4997a.png"/>
+        </ImageArray>
+        <ImageArray name="ImageArray9" compressMethod="RLEReversed" format="indexed8">
+            <Image src="resources/c976cdb.png"/>
+            <Image src="resources/8305034.png"/>
+            <Image src="resources/6cbf750.png"/>
+            <Image src="resources/d4f1e77.png"/>
+            <Image src="resources/cbc30c8.png"/>
+            <Image src="resources/c905b34.png"/>
+            <Image src="resources/c56bc46.png"/>
+            <Image src="resources/b0cefba.png"/>
+            <Image src="resources/b6e7543.png"/>
+            <Image src="resources/4483d4e.png"/>
+            <Image src="resources/ec59853.png"/>
+            <Image src="resources/1a41e51.png"/>
+            <Image src="resources/057e518.png"/>
+            <Image src="resources/0ba7c22.png"/>
+            <Image src="resources/e8e8d95.png"/>
+            <Image src="resources/e10ade0.png"/>
+            <Image src="resources/e3daf17.png"/>
+            <Image src="resources/f05e206.png"/>
+        </ImageArray>
+        <ImageArray name="ImageArray10" compressMethod="RLEReversed" format="indexed8">
+            <Image src="163复杂数据液晶/e8ceb5b.png"/>
+            <Image src="163复杂数据液晶/cb32894.png"/>
+            <Image src="163复杂数据液晶/ee8b003.png"/>
+            <Image src="163复杂数据液晶/042530d.png"/>
+            <Image src="163复杂数据液晶/199d9e3.png"/>
+            <Image src="163复杂数据液晶/aa4c507.png"/>
+            <Image src="163复杂数据液晶/1cd45f0.png"/>
+            <Image src="163复杂数据液晶/38a767d.png"/>
+            <Image src="163复杂数据液晶/46fe1ca.png"/>
+            <Image src="163复杂数据液晶/1d5ee32.png"/>
+            <Image src="163复杂数据液晶/2803a20.png"/>
+        </ImageArray>
+        <DataItemImageNumber name="ImageNumber1" source="healthStandCount" ref="@ImageArray1" rotation="0" supportRecolor="false" unitIcon="" leadingZero="false" decimalOffsetX="0" totalDigits="2" decimalDigits="0" trailingZero="false" parameter="1000" renderRule="alwaysShow" align="center" space="-3"/>
+        <DataItemImageNumber name="ImageNumber2" source="healthCalorieValue" ref="@ImageArray1" rotation="0" supportRecolor="false" unitIcon="" leadingZero="false" decimalOffsetX="0" totalDigits="5" decimalDigits="0" trailingZero="false" parameter="1000" renderRule="alwaysShow" align="center" space="-3"/>
+        <DataItemImageNumber name="ImageNumber3" source="healthHeartRate" ref="@ImageArray2" rotation="0" supportRecolor="false" unitIcon="" leadingZero="false" decimalOffsetX="0" totalDigits="3" decimalDigits="0" trailingZero="false" parameter="1000" renderRule="alwaysShow" align="center" space="-3"/>
+        <DataItemImageNumber name="ImageNumber4" source="healthStepCount" ref="@ImageArray1" rotation="0" supportRecolor="false" unitIcon="" leadingZero="false" decimalOffsetX="0" totalDigits="5" decimalDigits="0" trailingZero="false" parameter="1000" renderRule="alwaysShow" align="center" space="-3"/>
+        <DataItemImageNumber name="ImageNumber5" source="dateMonth" ref="@ImageArray4" rotation="0" leadingZero="true" decimalOffsetX="0" trailingZero="false" totalDigits="2" decimalDigits="0" supportRecolor="false" parameter="1000" renderRule="alwaysShow" align="left" space="-6"/>
+        <DataItemImageNumber name="ImageNumber6" source="dateDay" ref="@ImageArray4" rotation="0" leadingZero="true" decimalOffsetX="0" trailingZero="false" totalDigits="2" decimalDigits="0" supportRecolor="false" parameter="1000" renderRule="alwaysShow" align="left" space="-6"/>
+        <DataItemImageNumber name="ImageNumber7" source="systemStatusBattery" ref="@ImageArray4" rotation="0" supportRecolor="false" unitIcon="" leadingZero="false" decimalOffsetX="0" totalDigits="3" decimalDigits="0" trailingZero="false" parameter="1000" renderRule="alwaysShow" align="left" space="-5"/>
+        <DataItemImageNumber name="ImageNumber8" source="timeHour" ref="@ImageArray6" rotation="0" supportRecolor="false" unitIcon="" leadingZero="true" decimalOffsetX="0" totalDigits="2" decimalDigits="0" trailingZero="false" parameter="1000" renderRule="alwaysShow" align="left" space="6"/>
+        <DataItemImageNumber name="ImageNumber9" source="timeMinute" ref="@ImageArray6" rotation="0" supportRecolor="false" unitIcon="" leadingZero="true" decimalOffsetX="0" totalDigits="2" decimalDigits="0" trailingZero="false" parameter="1000" renderRule="alwaysShow" align="left" space="4"/>
+        <DataItemImageNumber name="ImageNumber10" source="timeSecond" ref="@ImageArray7" rotation="0" supportRecolor="false" unitIcon="" leadingZero="true" decimalOffsetX="0" totalDigits="2" decimalDigits="0" trailingZero="false" parameter="1000" renderRule="alwaysShow" align="left" space="1"/>
+        <DataItemImageNumber name="ImageNumber11" source="weatherCurrentTemperature" ref="@ImageArray10" rotation="0" supportRecolor="false" unitIcon="" leadingZero="false" decimalOffsetX="0" totalDigits="3" decimalDigits="0" trailingZero="false" parameter="1000" renderRule="hideWhenUnitMismatch" align="right" space="-6"/>
+        <DataItemImageNumber name="ImageNumber12" source="weatherCurrentTemperatureFahrenheit" ref="@ImageArray10" rotation="0" supportRecolor="false" unitIcon="" leadingZero="false" decimalOffsetX="0" totalDigits="4" decimalDigits="0" trailingZero="false" parameter="1000" renderRule="hideWhenUnitMismatch" align="right" space="-6"/>
+        <DataItemImageValues name="ImageValues1" source="dateWeek" ref="@ImageArray3" rotation="0" supportRecolor="false"/>
+        <DataItemImageValues name="ImageValues2" source="systemStatusBattery" ref="@ImageArray5" rotation="0" supportRecolor="false">
+            <Param value="0"/>
+            <Param value="1"/>
+            <Param value="11"/>
+            <Param value="21"/>
+            <Param value="31"/>
+            <Param value="41"/>
+            <Param value="51"/>
+            <Param value="61"/>
+            <Param value="71"/>
+            <Param value="81"/>
+            <Param value="91"/>
+        </DataItemImageValues>
+        <DataItemImageValues name="ImageValues3" source="miscIsPM" ref="@ImageArray8" rotation="0" supportRecolor="false"/>
+        <DataItemImageValues name="ImageValues4" source="weatherCurrentWeather" ref="@ImageArray9" rotation="0" supportRecolor="false">
+            <Param value="0"/>
+            <Param value="1"/>
+            <Param value="2"/>
+            <Param value="4"/>
+            <Param value="5"/>
+            <Param value="6"/>
+            <Param value="7"/>
+            <Param value="8"/>
+            <Param value="9"/>
+            <Param value="13"/>
+            <Param value="15"/>
+            <Param value="16"/>
+            <Param value="18"/>
+            <Param value="19"/>
+            <Param value="20"/>
+            <Param value="29"/>
+            <Param value="53"/>
+            <Param value="99"/>
+        </DataItemImageValues>
+        <DataItemPointer name="Pointer1" source="timeMinute" ref="@Image3" pivotX="6" pivotY="39" supportRecolor="false" renderRule="alwaysShow" angleStart="0" angleRange="360" valueStart="0" valueRange="60"/>
+        <DataItemPointer name="Pointer2" source="timeHour" ref="@Image4" pivotX="6" pivotY="38" supportRecolor="false" renderRule="alwaysShow" angleStart="0" angleRange="720" valueStart="0" valueRange="24"/>
+        <DataItemPointer name="Pointer3" source="timeSecond" ref="@Image5" pivotX="6" pivotY="38" supportRecolor="false" renderRule="alwaysShow" angleStart="0" angleRange="360" valueStart="0" valueRange="60" parameter="1000"/>
+        <DataItemLineProgressBar name="LineProgressBar1" source="systemStatusBattery" ref="@Image9" bg="" endingStyle="normal" valueStart="0" valueRange="100" indicatorImage="" supportRecolor="false" renderRule="alwaysShow" startX="0" startY="6" endX="28" endY="6" barWidth="12"/>
+        <Widget name="Widget1" flex_direction="row" justify_content="flex-start" align_items="center" gap="-6" w="76" h="28">
+            <Item ref="@ImageNumber5" x="234" y="257"/>
+            <Item ref="@Image6" x="234" y="257"/>
+            <Item ref="@ImageNumber6" x="234" y="257"/>
+        </Widget>
+        <Widget name="Widget2" widgetName="组1" groupType="general" w="60" h="28" flex_direction="row" justify_content="flex-start" align_items="flex-start" align_content="flex-start" gap="-3">
+            <Item ref="@ImageNumber7"/>
+            <Item ref="@Image7"/>
+        </Widget>
+        <Widget name="Widget3" widgetName="步数热区" groupType="general" w="70" h="60" jumpApp="activities">
+            <Item ref="@Image13" x="0" y="0"/>
+        </Widget>
+        <Widget name="Widget4" widgetName="卡路里热区" groupType="general" w="70" h="60" jumpApp="activities">
+            <Item ref="@Image13" x="0" y="0"/>
+        </Widget>
+        <Widget name="Widget5" widgetName="站立热区" groupType="general" w="70" h="60" jumpApp="activities">
+            <Item ref="@Image13" x="0" y="0"/>
+        </Widget>
+        <Widget name="Widget6" widgetName="心率热区" groupType="general" w="70" h="60" jumpApp="heartrate">
+            <Item ref="@Image13" x="0" y="0"/>
+        </Widget>
+        <Widget name="Widget7" widgetName="天气热区" groupType="general" w="140" h="32" jumpApp="weather">
+            <Item ref="@Image14" x="0" y="0"/>
+        </Widget>
+    </Resources>
+    <Theme type="normal" name="样式1" bgColor="#000000" isPhotoAlbumWatchface="false" preview="@Image1">
+        <Layout ref="@Image2" x="0" y="0"/>
+        <Layout ref="@Pointer1" x="84" y="78"/>
+        <Layout ref="@Pointer2" x="84" y="79"/>
+        <Layout ref="@Pointer3" x="84" y="79"/>
+        <Layout ref="@ImageNumber1" x="290" y="172"/>
+        <Layout ref="@ImageNumber2" x="219" y="172"/>
+        <Layout ref="@ImageNumber3" x="290" y="82"/>
+        <Layout ref="@ImageNumber4" x="219" y="82"/>
+        <Layout ref="@ImageValues1" x="157" y="257"/>
+        <Layout ref="@Widget1" x="234" y="257"/>
+        <Layout ref="@Widget2" x="64" y="308"/>
+        <Layout ref="@ImageValues2" x="24" y="339"/>
+        <Layout ref="@Image8" x="25" y="311"/>
+        <Layout ref="@LineProgressBar1" x="28" y="316"/>
+        <Layout ref="@ImageNumber8" x="89" y="377"/>
+        <Layout ref="@Image10" x="178" y="377"/>
+        <Layout ref="@ImageNumber9" x="213" y="377"/>
+        <Layout ref="@ImageNumber10" x="24" y="406"/>
+        <Layout ref="@ImageValues3" x="243" y="351"/>
+        <Layout ref="@ImageValues4" x="265" y="293"/>
+        <Layout ref="@ImageNumber11" x="256" y="298"/>
+        <Layout ref="@ImageNumber12" x="256" y="298"/>
+        <Layout ref="@Image11" x="253" y="302"/>
+        <Layout ref="@Image12" x="72" y="100"/>
+        <Layout ref="@Widget3" x="182" y="48"/>
+        <Layout ref="@Widget4" x="183" y="139"/>
+        <Layout ref="@Widget5" x="253" y="140"/>
+        <Layout ref="@Widget6" x="257" y="48"/>
+        <Layout ref="@Widget7" x="186" y="301"/>
+    </Theme>
+</Watchface>

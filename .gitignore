@@ -1,2 +1,8 @@
-﻿# Binary lives in GitHub Releases only
+﻿# Local compiler output. The published build at the repo root is tracked.
 *.face
+!/ComplexLCDPlus.face
+src/output/compiler.log
+src/output/tests/
+*.lnk
+__pycache__/
+*.pyc

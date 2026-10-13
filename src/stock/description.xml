@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<watch>
+	<shape>square</shape>
+	<name>Complex LCD Next</name>
+	<deviceType>P67</deviceType>
+	<version>1.0.11</version>
+	<size>336x480</size>
+	<author>Complex LCD Next</author>
+	<pkgName>29102701</pkgName>
+	<imageFormat>indexed8</imageFormat>
+	<imageCompression>true</imageCompression>
+	<editorVersion>1.0.0</editorVersion>
+	<webVersionCreatedAt>2024-04-29T16:10:47+08:00</webVersionCreatedAt>
+	<editorVersionCreatedAt>2.1.2</editorVersionCreatedAt>
+	<webVersionUpdatedAt>2026-03-23T10:33:53+08:00</webVersionUpdatedAt>
+	<editorVersionUpdatedAt>1.0.0</editorVersionUpdatedAt>
+	<_recolorEnable>false</_recolorEnable>
+	<temperatureUnitType>system</temperatureUnitType>
+	<_id>a7c29e1f4b8d6e0a3c5f7192d4e6b8a0</_id>
+	<imageArrayRamMethod>whole</imageArrayRamMethod>
+	<watchfaceType>normal</watchfaceType>
+	<watchOS>vela</watchOS>
+	<webVersionExportAt>2026-03-23T10:33:53+08:00</webVersionExportAt>
+	<editorVersionExportAt>1.0.0</editorVersionExportAt>
+	<merchantId/>
+	<introduce/>
+	<deviceRegion>international</deviceRegion>
+</watch>

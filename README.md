@@ -8,7 +8,9 @@ A cleaned-up, rebuilt take on Xiaomi’s stock **Complex LCD** layout: eight col
 
 ## Download
 
-Grab **`ComplexLCDPlus.face`** from the [latest Release](https://github.com/geeks0n-byte/complex-lcd-plus/releases/latest).
+Grab **`ComplexLCDPlus.face`** from this repo, or from the [latest Release](https://github.com/geeks0n-byte/complex-lcd-plus/releases/latest).
+
+Source, EasyFace project, and build script are in [`src/`](src/).
 
 ## Install (minstall)
 

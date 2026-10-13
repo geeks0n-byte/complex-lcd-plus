@@ -1,0 +1,1820 @@
+{
+  "themes": [
+    {
+      "id": "ch8sjb",
+      "name": "样式1",
+      "type": "normal",
+      "children": [
+        {
+          "id": "rqjfab",
+          "type": "Image",
+          "attrs": {
+            "sourceEnabled": false,
+            "valueStart": 0,
+            "valueEnd": 0,
+            "angleStart": 0,
+            "angleEnd": 360,
+            "recolorEnable": true,
+            "x": 0,
+            "y": 0,
+            "w": 336,
+            "h": 480,
+            "rotation": 0,
+            "name": "背景图",
+            "showImgFormat": false,
+            "_visibility": true,
+            "_isLocked": false,
+            "pointerFps": 1,
+            "pointerRegionNum": 0,
+            "shadowPointerOffsetY": 0,
+            "resources": {
+              "pointer0": {
+                "ythlea": [
+                  "23fd149.png"
+                ]
+              }
+            },
+            "spriteExtra": [],
+            "alpha": 1
+          }
+        },
+        {
+          "id": "i1hrai",
+          "type": "Image",
+          "attrs": {
+            "sourceEnabled": true,
+            "source": "timeMinute",
+            "valueStart": 0,
+            "valueEnd": 60,
+            "angleStart": 0,
+            "angleEnd": 360,
+            "recolorEnable": true,
+            "x": 84,
+            "y": 78,
+            "w": 12,
+            "h": 78,
+            "rotation": 0,
+            "name": "分",
+            "showImgFormat": false,
+            "_visibility": true,
+            "_isLocked": false,
+            "pointerFps": 1,
+            "pointerRegionNum": 0,
+            "shadowPointerOffsetY": 0,
+            "resources": {
+              "pointer0": {
+                "ythlea": [
+                  "37a8ef7.png"
+                ]
+              }
+            },
+            "sourceFormat": 1,
+            "spriteExtra": [],
+            "alpha": 1
+          }
+        },
+        {
+          "id": "ot6m8d",
+          "type": "Image",
+          "attrs": {
+            "sourceEnabled": true,
+            "source": "timeHour",
+            "valueStart": 0,
+            "valueEnd": 24,
+            "angleStart": 0,
+            "angleEnd": 720,
+            "recolorEnable": true,
+            "x": 84,
+            "y": 79,
+            "w": 12,
+            "h": 76,
+            "rotation": 0,
+            "name": "时",
+            "showImgFormat": false,
+            "_visibility": true,
+            "_isLocked": false,
+            "pointerFps": 1,
+            "pointerRegionNum": 0,
+            "shadowPointerOffsetY": 0,
+            "resources": {
+              "pointer0": {
+                "ythlea": [
+                  "2764c7f.png"
+                ]
+              }
+            },
+            "sourceFormat": 1,
+            "spriteExtra": [],
+            "alpha": 1
+          }
+        },
+        {
+          "id": "kb53yi",
+          "type": "Image",
+          "attrs": {
+            "sourceEnabled": true,
+            "source": "timeSecond",
+            "valueStart": 0,
+            "valueEnd": 60,
+            "angleStart": 0,
+            "angleEnd": 360,
+            "recolorEnable": true,
+            "x": 84,
+            "y": 79,
+            "w": 12,
+            "h": 76,
+            "rotation": 0,
+            "name": "秒",
+            "showImgFormat": false,
+            "_visibility": true,
+            "_isLocked": false,
+            "pointerFps": 1,
+            "pointerRegionNum": 0,
+            "shadowPointerOffsetY": 0,
+            "resources": {
+              "pointer0": {
+                "ythlea": [
+                  "bfc2729.png"
+                ]
+              }
+            },
+            "sourceFormat": 1,
+            "spriteExtra": [],
+            "alpha": 1
+          }
+        },
+        {
+          "id": "o0v8h5",
+          "type": "ImageArray",
+          "attrs": {
+            "sourceEnabled": true,
+            "source": "healthStandCount",
+            "valueStart": 0,
+            "valueEnd": 24,
+            "angleStart": 0,
+            "angleEnd": 360,
+            "recolorEnable": true,
+            "x": 290,
+            "y": 172,
+            "w": 14,
+            "h": 26,
+            "rotation": 0,
+            "name": "站立",
+            "showImgFormat": false,
+            "_visibility": true,
+            "_isLocked": false,
+            "fillType": "数字填充",
+            "align": "center",
+            "space": -3,
+            "widgetSpace": 0,
+            "sourceProgressAccuracy": 10,
+            "sourceWeatherType": "whole",
+            "sourceFormat": 1,
+            "sourceHourMode": "system",
+            "resources": {
+              "images": {
+                "ythlea": [
+                  "163复杂数据液晶/5e9e5aa.png",
+                  "163复杂数据液晶/fc0464b.png",
+                  "163复杂数据液晶/eb4f1df.png",
+                  "163复杂数据液晶/84660a3.png",
+                  "163复杂数据液晶/660ebe9.png",
+                  "163复杂数据液晶/e19276b.png",
+                  "163复杂数据液晶/ca64564.png",
+                  "163复杂数据液晶/0a6ffa0.png",
+                  "163复杂数据液晶/7bb6814.png",
+                  "163复杂数据液晶/9f99352.png"
+                ]
+              }
+            },
+            "spriteExtra": []
+          }
+        },
+        {
+          "id": "1c0q8o3pq",
+          "type": "ImageArray",
+          "attrs": {
+            "sourceEnabled": true,
+            "source": "healthCalorieValue",
+            "valueStart": 0,
+            "valueEnd": 99999,
+            "angleStart": 0,
+            "angleEnd": 360,
+            "recolorEnable": true,
+            "x": 219,
+            "y": 172,
+            "w": 14,
+            "h": 26,
+            "rotation": 0,
+            "name": "卡路里",
+            "showImgFormat": false,
+            "_visibility": true,
+            "_isLocked": false,
+            "fillType": "数字填充",
+            "align": "center",
+            "space": -3,
+            "widgetSpace": 0,
+            "sourceProgressAccuracy": 10,
+            "sourceWeatherType": "whole",
+            "sourceFormat": 1,
+            "sourceHourMode": "system",
+            "resources": {
+              "images": {
+                "ythlea": [
+                  "163复杂数据液晶/5e9e5aa.png",
+                  "163复杂数据液晶/fc0464b.png",
+                  "163复杂数据液晶/eb4f1df.png",
+                  "163复杂数据液晶/84660a3.png",
+                  "163复杂数据液晶/660ebe9.png",
+                  "163复杂数据液晶/e19276b.png",
+                  "163复杂数据液晶/ca64564.png",
+                  "163复杂数据液晶/0a6ffa0.png",
+                  "163复杂数据液晶/7bb6814.png",
+                  "163复杂数据液晶/9f99352.png"
+                ]
+              }
+            },
+            "spriteExtra": [],
+            "_cloneFromId": "o0v8h5"
+          }
+        },
+        {
+          "id": "wgcjc8sn1",
+          "type": "ImageArray",
+          "attrs": {
+            "sourceEnabled": true,
+            "source": "healthHeartRate",
+            "valueStart": "healthHeartRateMin",
+            "valueEnd": "healthHeartRateMax",
+            "angleStart": 0,
+            "angleEnd": 360,
+            "recolorEnable": true,
+            "x": 290,
+            "y": 82,
+            "w": 14,
+            "h": 26,
+            "rotation": 0,
+            "name": "心率",
+            "showImgFormat": false,
+            "_visibility": true,
+            "_isLocked": false,
+            "fillType": "数字填充",
+            "align": "center",
+            "space": -3,
+            "widgetSpace": 0,
+            "sourceProgressAccuracy": 10,
+            "sourceWeatherType": "whole",
+            "sourceFormat": 1,
+            "sourceHourMode": "system",
+            "resources": {
+              "images": {
+                "ythlea": [
+                  "163复杂数据液晶/5e9e5aa.png",
+                  "163复杂数据液晶/fc0464b.png",
+                  "163复杂数据液晶/eb4f1df.png",
+                  "163复杂数据液晶/84660a3.png",
+                  "163复杂数据液晶/660ebe9.png",
+                  "163复杂数据液晶/e19276b.png",
+                  "163复杂数据液晶/ca64564.png",
+                  "163复杂数据液晶/0a6ffa0.png",
+                  "163复杂数据液晶/7bb6814.png",
+                  "163复杂数据液晶/9f99352.png",
+                  "resources/cf0524d.png"
+                ]
+              }
+            },
+            "spriteExtra": [],
+            "_cloneFromId": "o0v8h5"
+          }
+        },
+        {
+          "id": "89lw0a",
+          "type": "ImageArray",
+          "attrs": {
+            "sourceEnabled": true,
+            "source": "healthStepCount",
+            "valueStart": 0,
+            "valueEnd": "healthStepTarget",
+            "angleStart": 0,
+            "angleEnd": 360,
+            "recolorEnable": true,
+            "x": 219,
+            "y": 82,
+            "w": 14,
+            "h": 26,
+            "rotation": 0,
+            "name": "步数",
+            "showImgFormat": false,
+            "_visibility": true,
+            "_isLocked": false,
+            "fillType": "数字填充",
+            "align": "center",
+            "space": -3,
+            "widgetSpace": 0,
+            "sourceProgressAccuracy": 10,
+            "sourceWeatherType": "whole",
+            "sourceFormat": 1,
+            "sourceHourMode": "system",
+            "resources": {
+              "images": {
+                "ythlea": [
+                  "163复杂数据液晶/5e9e5aa.png",
+                  "163复杂数据液晶/fc0464b.png",
+                  "163复杂数据液晶/eb4f1df.png",
+                  "163复杂数据液晶/84660a3.png",
+                  "163复杂数据液晶/660ebe9.png",
+                  "163复杂数据液晶/e19276b.png",
+                  "163复杂数据液晶/ca64564.png",
+                  "163复杂数据液晶/0a6ffa0.png",
+                  "163复杂数据液晶/7bb6814.png",
+                  "163复杂数据液晶/9f99352.png"
+                ]
+              }
+            },
+            "spriteExtra": []
+          }
+        },
+        {
+          "id": "mxfcw6",
+          "type": "ImageArray",
+          "attrs": {
+            "sourceEnabled": true,
+            "source": "dateWeek",
+            "valueStart": 0,
+            "valueEnd": 6,
+            "angleStart": 0,
+            "angleEnd": 360,
+            "recolorEnable": true,
+            "x": 157,
+            "y": 257,
+            "w": 68,
+            "h": 28,
+            "rotation": 0,
+            "name": "图组1",
+            "showImgFormat": false,
+            "_visibility": true,
+            "_isLocked": false,
+            "fillType": "普通填充",
+            "align": "left",
+            "space": 0,
+            "widgetSpace": 0,
+            "sourceProgressAccuracy": 10,
+            "sourceWeatherType": "whole",
+            "sourceHourMode": "system",
+            "resources": {
+              "images": {
+                "ythlea": [
+                  "163复杂数据液晶/f75bd57.png",
+                  "163复杂数据液晶/597a3ac.png",
+                  "163复杂数据液晶/b3273ba.png",
+                  "163复杂数据液晶/95c7b07.png",
+                  "163复杂数据液晶/eb3e7fe.png",
+                  "163复杂数据液晶/dd97da5.png",
+                  "163复杂数据液晶/aaa3e3a.png"
+                ]
+              }
+            },
+            "spriteExtra": []
+          }
+        },
+        {
+          "id": "4xle1j",
+          "type": "ImageArray",
+          "attrs": {
+            "sourceEnabled": true,
+            "source": "date",
+            "valueStart": 1,
+            "valueEnd": 12,
+            "angleStart": 0,
+            "angleEnd": 360,
+            "recolorEnable": true,
+            "x": 234,
+            "y": 257,
+            "w": 20,
+            "h": 28,
+            "rotation": 0,
+            "name": "图组2",
+            "showImgFormat": false,
+            "_visibility": true,
+            "_isLocked": false,
+            "fillType": "数字填充",
+            "align": "left",
+            "space": -6,
+            "widgetSpace": -6,
+            "sourceProgressAccuracy": 10,
+            "sourceWeatherType": "whole",
+            "sourceFormat": 12,
+            "sourceHourMode": "system",
+            "resources": {
+              "images": {
+                "ythlea": [
+                  "date/4b6d515.png",
+                  "date/b4904f9.png",
+                  "date/17e5e54.png",
+                  "date/f8901cf.png",
+                  "date/ec4f10c.png",
+                  "date/354e33b.png",
+                  "date/cb850b2.png",
+                  "date/e1105b9.png",
+                  "date/7c06f04.png",
+                  "date/09967bb.png"
+                ]
+              },
+              "unitIcon": {
+                "ythlea": [
+                  "f8782d4.png"
+                ]
+              }
+            },
+            "spriteExtra": []
+          }
+        },
+        {
+          "id": "5dc7eo7kq",
+          "type": "Widget",
+          "children": [
+            {
+              "id": "g5xagn",
+              "type": "Image",
+              "attrs": {
+                "sourceEnabled": false,
+                "valueStart": 0,
+                "valueEnd": 0,
+                "angleStart": 0,
+                "angleEnd": 360,
+                "recolorEnable": true,
+                "x": 0,
+                "y": 0,
+                "w": 20,
+                "h": 28,
+                "rotation": 0,
+                "name": "日期电量0",
+                "showImgFormat": false,
+                "_visibility": true,
+                "_isLocked": false,
+                "pointerFps": 1,
+                "pointerRegionNum": 0,
+                "shadowPointerOffsetY": 0,
+                "resources": {
+                  "pointer0": {
+                    "ythlea": [
+                      "921e087.png"
+                    ]
+                  }
+                },
+                "spriteExtra": []
+              }
+            },
+            {
+              "id": "sjw6fs",
+              "type": "ImageArray",
+              "attrs": {
+                "sourceEnabled": true,
+                "source": "systemStatusBattery",
+                "valueStart": 0,
+                "valueEnd": 100,
+                "angleStart": 0,
+                "angleEnd": 360,
+                "recolorEnable": true,
+                "x": 0,
+                "y": 0,
+                "w": 20,
+                "h": 28,
+                "rotation": 0,
+                "name": "电量",
+                "showImgFormat": false,
+                "_visibility": true,
+                "_isLocked": false,
+                "fillType": "数字填充",
+                "align": "left",
+                "space": -5,
+                "widgetSpace": -6,
+                "sourceProgressAccuracy": 10,
+                "sourceWeatherType": "whole",
+                "sourceFormat": 3,
+                "sourceHourMode": "system",
+                "resources": {
+                  "images": {
+                    "ythlea": [
+                      "date/4b6d515.png",
+                      "date/b4904f9.png",
+                      "date/17e5e54.png",
+                      "date/f8901cf.png",
+                      "date/ec4f10c.png",
+                      "date/354e33b.png",
+                      "date/cb850b2.png",
+                      "date/e1105b9.png",
+                      "date/7c06f04.png",
+                      "date/09967bb.png"
+                    ]
+                  },
+                  "unitIcon": {}
+                },
+                "spriteExtra": []
+              }
+            }
+          ],
+          "attrs": {
+            "name": "组1",
+            "x": 64,
+            "y": 308,
+            "_isLocked": false,
+            "_visibility": true,
+            "w": 60,
+            "h": 28,
+            "jumpApp": "none",
+            "flexDirection": "row",
+            "justifyContent": "flex-start",
+            "alignItems": "flex-start",
+            "gap": -3,
+            "spriteExtra": []
+          }
+        },
+        {
+          "id": "rplffi",
+          "type": "ImageArray",
+          "attrs": {
+            "sourceEnabled": true,
+            "source": "systemStatusBattery",
+            "valueStart": 0,
+            "valueEnd": 100,
+            "angleStart": 0,
+            "angleEnd": 360,
+            "recolorEnable": true,
+            "x": 24,
+            "y": 339,
+            "w": 124,
+            "h": 30,
+            "rotation": 0,
+            "name": "电量进度条",
+            "showImgFormat": false,
+            "_visibility": true,
+            "_isLocked": false,
+            "fillType": "普通填充",
+            "align": "left",
+            "space": 0,
+            "widgetSpace": 0,
+            "sourceProgressAccuracy": 0,
+            "sourceWeatherType": "whole",
+            "sourceFormat": 1,
+            "sourceHourMode": "system",
+            "resources": {
+              "images": {
+                "ythlea": [
+                  "P67 表盘/7a3950b.png",
+                  "P67 表盘/67f0fa7.png",
+                  "P67 表盘/7e0e89c.png",
+                  "P67 表盘/972a5e4.png",
+                  "P67 表盘/fb4115e.png",
+                  "P67 表盘/0873788.png",
+                  "P67 表盘/ef4698e.png",
+                  "P67 表盘/5a032d1.png",
+                  "P67 表盘/b5d3990.png",
+                  "P67 表盘/3efc345.png",
+                  "P67 表盘/20bfe42.png"
+                ]
+              }
+            },
+            "spriteExtra": [],
+            "sourceProgressCustom": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                10
+              ],
+              [
+                11,
+                20
+              ],
+              [
+                21,
+                30
+              ],
+              [
+                31,
+                40
+              ],
+              [
+                41,
+                50
+              ],
+              [
+                51,
+                60
+              ],
+              [
+                61,
+                70
+              ],
+              [
+                71,
+                80
+              ],
+              [
+                81,
+                90
+              ],
+              [
+                91,
+                100
+              ]
+            ]
+          }
+        },
+        {
+          "id": "s7zgezn9g",
+          "type": "Image",
+          "attrs": {
+            "sourceEnabled": false,
+            "valueStart": 0,
+            "valueEnd": 0,
+            "angleStart": 0,
+            "angleEnd": 360,
+            "recolorEnable": true,
+            "x": 25,
+            "y": 311,
+            "w": 40,
+            "h": 22,
+            "rotation": 0,
+            "name": "电池框 (3)",
+            "showImgFormat": false,
+            "_visibility": true,
+            "_isLocked": false,
+            "temperatureUnitType": "celsius",
+            "pointerFps": 1,
+            "compassFps": 50,
+            "pointerRegionNum": 0,
+            "shadowPointerOffsetY": 0,
+            "resources": {
+              "pointer0": {
+                "ythlea": [
+                  "4fe8d11.png"
+                ]
+              }
+            },
+            "spriteExtra": []
+          }
+        },
+        {
+          "id": "jgy67ued5",
+          "type": "ProgressBar",
+          "attrs": {
+            "sourceEnabled": true,
+            "source": "systemStatusBattery",
+            "valueStart": 0,
+            "valueEnd": 100,
+            "angleStart": 0,
+            "angleEnd": 360,
+            "recolorEnable": true,
+            "x": 28,
+            "y": 316,
+            "w": 28,
+            "h": 12,
+            "rotation": 0,
+            "name": "电量100 (2)",
+            "showImgFormat": false,
+            "_visibility": true,
+            "_isLocked": false,
+            "temperatureUnitType": "celsius",
+            "innerRingPercent": 20,
+            "barWidth": 100,
+            "barRadius": 20,
+            "endingStyle": "normal",
+            "progressBarType": "line",
+            "growDirection": "to-right",
+            "resources": {
+              "progress": {
+                "ythlea": [
+                  "f09972d.png"
+                ]
+              }
+            },
+            "sourceFormat": 1,
+            "indicatorRadius": 0,
+            "spriteExtra": []
+          }
+        },
+        {
+          "id": "v8ttbe",
+          "type": "ImageArray",
+          "attrs": {
+            "sourceEnabled": true,
+            "source": "timeHour",
+            "valueStart": 0,
+            "valueEnd": 24,
+            "angleStart": 0,
+            "angleEnd": 360,
+            "recolorEnable": true,
+            "x": 89,
+            "y": 377,
+            "w": 48,
+            "h": 78,
+            "rotation": 0,
+            "name": "图组3",
+            "showImgFormat": false,
+            "_visibility": true,
+            "_isLocked": false,
+            "fillType": "数字填充",
+            "align": "left",
+            "space": 6,
+            "widgetSpace": 0,
+            "sourceProgressAccuracy": 10,
+            "sourceWeatherType": "whole",
+            "sourceFormat": 2,
+            "sourceHourMode": "system",
+            "resources": {
+              "images": {
+                "ythlea": [
+                  "163复杂数据液晶/a4b9e32.png",
+                  "163复杂数据液晶/e5bf8f0.png",
+                  "163复杂数据液晶/eba734d.png",
+                  "163复杂数据液晶/16f7f2e.png",
+                  "163复杂数据液晶/069b635.png",
+                  "163复杂数据液晶/fb2fa19.png",
+                  "163复杂数据液晶/d463444.png",
+                  "163复杂数据液晶/d6c9431.png",
+                  "163复杂数据液晶/2dc5f96.png",
+                  "163复杂数据液晶/e0ec0af.png"
+                ]
+              }
+            },
+            "spriteExtra": []
+          }
+        },
+        {
+          "id": "jrsaze",
+          "type": "Image",
+          "attrs": {
+            "sourceEnabled": false,
+            "valueStart": 0,
+            "valueEnd": 0,
+            "angleStart": 0,
+            "angleEnd": 360,
+            "recolorEnable": true,
+            "x": 178,
+            "y": 377,
+            "w": 48,
+            "h": 78,
+            "rotation": 0,
+            "name": "时间10",
+            "showImgFormat": false,
+            "_visibility": true,
+            "_isLocked": false,
+            "pointerFps": 1,
+            "pointerRegionNum": 0,
+            "shadowPointerOffsetY": 0,
+            "resources": {
+              "pointer0": {
+                "ythlea": [
+                  "34cf4a5.png"
+                ]
+              }
+            },
+            "spriteExtra": []
+          }
+        },
+        {
+          "id": "4pkq4b",
+          "type": "ImageArray",
+          "attrs": {
+            "sourceEnabled": true,
+            "source": "timeMinute",
+            "valueStart": 0,
+            "valueEnd": 60,
+            "angleStart": 0,
+            "angleEnd": 360,
+            "recolorEnable": true,
+            "x": 213,
+            "y": 377,
+            "w": 48,
+            "h": 78,
+            "rotation": 0,
+            "name": "图组4",
+            "showImgFormat": false,
+            "_visibility": true,
+            "_isLocked": false,
+            "fillType": "数字填充",
+            "align": "left",
+            "space": 4,
+            "widgetSpace": 0,
+            "sourceProgressAccuracy": 10,
+            "sourceWeatherType": "whole",
+            "sourceFormat": 2,
+            "sourceHourMode": "system",
+            "resources": {
+              "images": {
+                "ythlea": [
+                  "163复杂数据液晶/a4b9e32.png",
+                  "163复杂数据液晶/e5bf8f0.png",
+                  "163复杂数据液晶/eba734d.png",
+                  "163复杂数据液晶/16f7f2e.png",
+                  "163复杂数据液晶/069b635.png",
+                  "163复杂数据液晶/fb2fa19.png",
+                  "163复杂数据液晶/d463444.png",
+                  "163复杂数据液晶/d6c9431.png",
+                  "163复杂数据液晶/2dc5f96.png",
+                  "163复杂数据液晶/e0ec0af.png"
+                ]
+              }
+            },
+            "spriteExtra": []
+          }
+        },
+        {
+          "id": "yn2ivb",
+          "type": "ImageArray",
+          "attrs": {
+            "sourceEnabled": true,
+            "source": "timeSecond",
+            "valueStart": 0,
+            "valueEnd": 60,
+            "angleStart": 0,
+            "angleEnd": 360,
+            "recolorEnable": true,
+            "x": 24,
+            "y": 406,
+            "w": 26,
+            "h": 42,
+            "rotation": 0,
+            "name": "图组5",
+            "showImgFormat": false,
+            "_visibility": true,
+            "_isLocked": false,
+            "fillType": "数字填充",
+            "align": "left",
+            "space": 1,
+            "widgetSpace": 0,
+            "sourceProgressAccuracy": 10,
+            "sourceWeatherType": "whole",
+            "sourceFormat": 2,
+            "sourceHourMode": "system",
+            "resources": {
+              "images": {
+                "ythlea": [
+                  "163复杂数据液晶/9891763.png",
+                  "163复杂数据液晶/047f6b5.png",
+                  "163复杂数据液晶/e81c8a1.png",
+                  "163复杂数据液晶/e7fffee.png",
+                  "163复杂数据液晶/72a8948.png",
+                  "163复杂数据液晶/ad9c98f.png",
+                  "163复杂数据液晶/36b6203.png",
+                  "163复杂数据液晶/a1f55f2.png",
+                  "163复杂数据液晶/c1218b1.png",
+                  "163复杂数据液晶/59b46b2.png"
+                ]
+              }
+            },
+            "spriteExtra": []
+          }
+        },
+        {
+          "id": "4s02hu",
+          "type": "ImageArray",
+          "attrs": {
+            "sourceEnabled": true,
+            "source": "miscIsPM",
+            "valueStart": 0,
+            "valueEnd": 1,
+            "angleStart": 0,
+            "angleEnd": 360,
+            "recolorEnable": true,
+            "x": 243,
+            "y": 351,
+            "w": 100,
+            "h": 100,
+            "rotation": 0,
+            "name": "秒",
+            "showImgFormat": false,
+            "_visibility": true,
+            "_isLocked": false,
+            "fillType": "普通填充",
+            "align": "left",
+            "space": 0,
+            "widgetSpace": 0,
+            "sourceProgressAccuracy": 10,
+            "sourceWeatherType": "whole",
+            "sourceHourMode": "system",
+            "resources": {
+              "images": {
+                "ythlea": [
+                  "163其余切图/d2415aa.png",
+                  "163其余切图/3f4997a.png"
+                ]
+              }
+            },
+            "spriteExtra": []
+          }
+        },
+        {
+          "id": "3baggf",
+          "type": "ImageArray",
+          "attrs": {
+            "sourceEnabled": true,
+            "source": "weatherCurrentWeather",
+            "valueStart": 0,
+            "valueEnd": 301,
+            "angleStart": 0,
+            "angleEnd": 360,
+            "recolorEnable": true,
+            "x": 265,
+            "y": 293,
+            "w": 100,
+            "h": 100,
+            "rotation": 0,
+            "name": "图组6",
+            "showImgFormat": false,
+            "_visibility": true,
+            "_isLocked": false,
+            "fillType": "普通填充",
+            "align": "left",
+            "space": 0,
+            "widgetSpace": 0,
+            "sourceProgressAccuracy": 10,
+            "sourceWeatherType": "whole",
+            "sourceHourMode": "system",
+            "resources": {
+              "images": {
+                "ythlea": [
+                  "resources/c976cdb.png",
+                  "resources/8305034.png",
+                  "resources/6cbf750.png",
+                  "resources/d4f1e77.png",
+                  "resources/cbc30c8.png",
+                  "resources/c905b34.png",
+                  "resources/0ba7c22.png",
+                  "resources/c56bc46.png",
+                  "resources/b0cefba.png",
+                  "resources/b6e7543.png",
+                  "resources/4483d4e.png",
+                  "resources/ec59853.png",
+                  "resources/1a41e51.png",
+                  "resources/057e518.png",
+                  "resources/e10ade0.png",
+                  "resources/e8e8d95.png",
+                  "resources/e3daf17.png",
+                  "resources/f05e206.png"
+                ]
+              }
+            },
+            "spriteExtra": []
+          }
+        },
+        {
+          "id": "nsssyq",
+          "type": "ImageArray",
+          "attrs": {
+            "sourceEnabled": true,
+            "source": "weatherCurrentTempature_temp",
+            "valueStart": "weatherTodayTemperatureMin_temp",
+            "valueEnd": "weatherTodayTemperatureMax_temp",
+            "angleStart": 0,
+            "angleEnd": 360,
+            "recolorEnable": true,
+            "x": 256,
+            "y": 298,
+            "w": 28,
+            "h": 38,
+            "rotation": 0,
+            "name": "图组7",
+            "showImgFormat": false,
+            "_visibility": true,
+            "_isLocked": false,
+            "fillType": "数字填充",
+            "align": "right",
+            "space": -6,
+            "widgetSpace": 0,
+            "sourceProgressAccuracy": 10,
+            "sourceWeatherType": "whole",
+            "sourceFormat": 1,
+            "sourceHourMode": "system",
+            "resources": {
+              "images": {
+                "ythlea": [
+                  "163复杂数据液晶/e8ceb5b.png",
+                  "163复杂数据液晶/cb32894.png",
+                  "163复杂数据液晶/ee8b003.png",
+                  "163复杂数据液晶/042530d.png",
+                  "163复杂数据液晶/199d9e3.png",
+                  "163复杂数据液晶/aa4c507.png",
+                  "163复杂数据液晶/1cd45f0.png",
+                  "163复杂数据液晶/38a767d.png",
+                  "163复杂数据液晶/46fe1ca.png",
+                  "163复杂数据液晶/1d5ee32.png",
+                  "163复杂数据液晶/2803a20.png",
+                  "163复杂数据液晶/09c4f3a.png"
+                ]
+              }
+            },
+            "temperatureUnitType": "system",
+            "spriteExtra": []
+          }
+        },
+        {
+          "id": "8k95rm",
+          "type": "Image",
+          "attrs": {
+            "sourceEnabled": false,
+            "valueStart": 0,
+            "valueEnd": 0,
+            "angleStart": 0,
+            "angleEnd": 360,
+            "recolorEnable": true,
+            "x": 253,
+            "y": 302,
+            "w": 10,
+            "h": 36,
+            "rotation": 0,
+            "name": "温度单位",
+            "showImgFormat": false,
+            "_visibility": true,
+            "_isLocked": false,
+            "pointerFps": 1,
+            "pointerRegionNum": 0,
+            "shadowPointerOffsetY": 0,
+            "resources": {
+              "pointer0": {
+                "ythlea": [
+                  "1b4140b.png"
+                ]
+              }
+            },
+            "spriteExtra": []
+          }
+        },
+        {
+          "id": "4nad53mvr",
+          "type": "Image",
+          "attrs": {
+            "sourceEnabled": false,
+            "valueStart": 0,
+            "valueEnd": 0,
+            "angleStart": 0,
+            "angleEnd": 360,
+            "recolorEnable": true,
+            "x": 72,
+            "y": 100,
+            "w": 34,
+            "h": 34,
+            "rotation": 0,
+            "name": "Group 427322030",
+            "showImgFormat": false,
+            "_visibility": true,
+            "_isLocked": false,
+            "temperatureUnitType": "celsius",
+            "pointerFps": 1,
+            "compassFps": 50,
+            "pointerRegionNum": 0,
+            "shadowPointerOffsetY": 0,
+            "resources": {
+              "pointer0": {
+                "ythlea": [
+                  "1292eb9.png"
+                ]
+              }
+            },
+            "spriteExtra": []
+          }
+        },
+        {
+          "id": "82b6bzc7c",
+          "type": "Widget",
+          "children": [
+            {
+              "id": "jt7pdz3wr",
+              "type": "Image",
+              "attrs": {
+                "sourceEnabled": false,
+                "valueStart": 0,
+                "valueEnd": 0,
+                "angleStart": 0,
+                "angleEnd": 360,
+                "recolorEnable": true,
+                "x": 0,
+                "y": 0,
+                "w": 70,
+                "h": 60,
+                "rotation": 0,
+                "name": "70_60",
+                "showImgFormat": false,
+                "_visibility": true,
+                "_isLocked": false,
+                "temperatureUnitType": "celsius",
+                "pointerFps": 30,
+                "compassFps": 50,
+                "pointerRegionNum": 0,
+                "shadowPointerOffsetY": 0,
+                "resources": {
+                  "pointer0": {
+                    "ythlea": [
+                      "b113652.png"
+                    ]
+                  }
+                }
+              }
+            }
+          ],
+          "attrs": {
+            "name": "步数热区",
+            "x": 182,
+            "y": 48,
+            "_isLocked": false,
+            "_visibility": true,
+            "w": 70,
+            "h": 60,
+            "jumpApp": "activities"
+          }
+        },
+        {
+          "id": "riij2qvqn",
+          "type": "Widget",
+          "children": [
+            {
+              "id": "wise08w0p",
+              "type": "Image",
+              "attrs": {
+                "sourceEnabled": false,
+                "valueStart": 0,
+                "valueEnd": 0,
+                "angleStart": 0,
+                "angleEnd": 360,
+                "recolorEnable": true,
+                "x": 0,
+                "y": 0,
+                "w": 70,
+                "h": 60,
+                "rotation": 0,
+                "name": "70_60",
+                "showImgFormat": false,
+                "_visibility": true,
+                "_isLocked": false,
+                "temperatureUnitType": "celsius",
+                "pointerFps": 30,
+                "compassFps": 50,
+                "pointerRegionNum": 0,
+                "shadowPointerOffsetY": 0,
+                "resources": {
+                  "pointer0": {
+                    "ythlea": [
+                      "b113652.png"
+                    ]
+                  }
+                },
+                "_cloneFromId": "jt7pdz3wr"
+              }
+            }
+          ],
+          "attrs": {
+            "name": "卡路里热区",
+            "x": 183,
+            "y": 139,
+            "_isLocked": false,
+            "_visibility": true,
+            "w": 70,
+            "h": 60,
+            "jumpApp": "activities",
+            "_cloneFromId": "82b6bzc7c"
+          }
+        },
+        {
+          "id": "yunhs92p5",
+          "type": "Widget",
+          "children": [
+            {
+              "id": "3najzcgfe",
+              "type": "Image",
+              "attrs": {
+                "sourceEnabled": false,
+                "valueStart": 0,
+                "valueEnd": 0,
+                "angleStart": 0,
+                "angleEnd": 360,
+                "recolorEnable": true,
+                "x": 0,
+                "y": 0,
+                "w": 70,
+                "h": 60,
+                "rotation": 0,
+                "name": "70_60",
+                "showImgFormat": false,
+                "_visibility": true,
+                "_isLocked": false,
+                "temperatureUnitType": "celsius",
+                "pointerFps": 30,
+                "compassFps": 50,
+                "pointerRegionNum": 0,
+                "shadowPointerOffsetY": 0,
+                "resources": {
+                  "pointer0": {
+                    "ythlea": [
+                      "b113652.png"
+                    ]
+                  }
+                },
+                "_cloneFromId": "wise08w0p"
+              }
+            }
+          ],
+          "attrs": {
+            "name": "站立热区",
+            "x": 253,
+            "y": 140,
+            "_isLocked": false,
+            "_visibility": true,
+            "w": 70,
+            "h": 60,
+            "jumpApp": "activities",
+            "_cloneFromId": "riij2qvqn"
+          }
+        },
+        {
+          "id": "wczzin05j",
+          "type": "Widget",
+          "children": [
+            {
+              "id": "g7875l5rf",
+              "type": "Image",
+              "attrs": {
+                "sourceEnabled": false,
+                "valueStart": 0,
+                "valueEnd": 0,
+                "angleStart": 0,
+                "angleEnd": 360,
+                "recolorEnable": true,
+                "x": 0,
+                "y": 0,
+                "w": 70,
+                "h": 60,
+                "rotation": 0,
+                "name": "70_60",
+                "showImgFormat": false,
+                "_visibility": true,
+                "_isLocked": false,
+                "temperatureUnitType": "celsius",
+                "pointerFps": 30,
+                "compassFps": 50,
+                "pointerRegionNum": 0,
+                "shadowPointerOffsetY": 0,
+                "resources": {
+                  "pointer0": {
+                    "ythlea": [
+                      "b113652.png"
+                    ]
+                  }
+                }
+              }
+            }
+          ],
+          "attrs": {
+            "name": "心率热区",
+            "x": 257,
+            "y": 48,
+            "_isLocked": false,
+            "_visibility": true,
+            "w": 70,
+            "h": 60,
+            "jumpApp": "heartrate"
+          }
+        },
+        {
+          "id": "ehsuls75r",
+          "type": "Widget",
+          "children": [
+            {
+              "id": "tp9eatrqs",
+              "type": "Image",
+              "attrs": {
+                "sourceEnabled": false,
+                "valueStart": 0,
+                "valueEnd": 0,
+                "angleStart": 0,
+                "angleEnd": 360,
+                "recolorEnable": true,
+                "x": 0,
+                "y": 0,
+                "w": 140,
+                "h": 32,
+                "rotation": 0,
+                "name": "140_32",
+                "showImgFormat": false,
+                "_visibility": true,
+                "_isLocked": false,
+                "temperatureUnitType": "celsius",
+                "pointerFps": 30,
+                "compassFps": 50,
+                "pointerRegionNum": 0,
+                "shadowPointerOffsetY": 0,
+                "resources": {
+                  "pointer0": {
+                    "ythlea": [
+                      "dc12273.png"
+                    ]
+                  }
+                }
+              }
+            }
+          ],
+          "attrs": {
+            "name": "天气热区",
+            "x": 186,
+            "y": 301,
+            "_isLocked": false,
+            "_visibility": true,
+            "w": 140,
+            "h": 32,
+            "jumpApp": "weather"
+          }
+        }
+      ],
+      "bgColor": "#000000",
+      "colorGroupTable": [
+        {
+          "id": "ythlea",
+          "name": "配色1",
+          "color": "#ffffff"
+        }
+      ],
+      "preview": "_preview/样式1亮屏预览图.png",
+      "ifttts": []
+    }
+  ],
+  "i18n": {
+    "translations": {
+      "watchfaceName": {
+        "en_US": "Complex LCD Next",
+        "zh_CN": "复杂数据液晶",
+        "zh_TW": "複雜資料液晶",
+        "ja_JP": "コンプレックスLCD",
+        "es_ES": "LCD complejo",
+        "fr_FR": "Complex LCD Next",
+        "de_DE": "Komplexes LCD",
+        "ru_RU": "Комплексный LCD",
+        "pt_BR": "LCD complexo",
+        "pt_PT": "LCD complexo",
+        "it_IT": "LCD complesso",
+        "ko_KR": "컴플렉스 LCD",
+        "tr_TR": "Kompleks LCD",
+        "nl_NL": "Complex LCD Next",
+        "th_TH": "LCD ซับซ้อน",
+        "sv_SE": "Komplex LCD",
+        "da_DK": "Kompleks LCD",
+        "vi_VN": "LCD phức hợp",
+        "nb_NO": "Kompleks LCD",
+        "pl_PL": "Complex LCD Next",
+        "fi_FI": "Complex LCD Next",
+        "in_ID": "LCD kompleks",
+        "el_GR": "Σύνθετη LCD",
+        "ro_RO": "LCD complex",
+        "cs_CZ": "Komplexní LCD",
+        "uk_UA": "Комплексний РК",
+        "sk_SK": "Komplexné LCD",
+        "hu_HU": "Komplex LCD",
+        "ar_EG": "شاشات LCD معقدة",
+        "iw_IL": "LCD מורכב",
+        "zh_HK": "複雜資料液晶",
+        "bg_BG": "Complex LCD Next"
+      }
+    },
+    "locales": [
+      "en_US",
+      "zh_CN",
+      "zh_TW",
+      "ja_JP",
+      "es_ES",
+      "fr_FR",
+      "de_DE",
+      "ru_RU",
+      "pt_BR",
+      "pt_PT",
+      "it_IT",
+      "ko_KR",
+      "tr_TR",
+      "nl_NL",
+      "th_TH",
+      "sv_SE",
+      "da_DK",
+      "vi_VN",
+      "nb_NO",
+      "pl_PL",
+      "fi_FI",
+      "in_ID",
+      "el_GR",
+      "ro_RO",
+      "cs_CZ",
+      "uk_UA",
+      "sk_SK",
+      "hu_HU",
+      "ar_EG",
+      "iw_IL",
+      "zh_HK",
+      "bg_BG"
+    ]
+  },
+  "formats": {
+    "0ee9496.png": "indexed8",
+    "33a6b76.png": "indexed8",
+    "电量1/1e94e1e.png": "indexed8",
+    "电量1/aa672ab.png": "indexed8",
+    "电量1/6c275fe.png": "indexed8",
+    "电量1/1658bcd.png": "indexed8",
+    "电量1/fce22ca.png": "indexed8",
+    "电量1/df38bb3.png": "indexed8",
+    "电量1/3b2e840.png": "indexed8",
+    "电量1/99c974c.png": "indexed8",
+    "电量1/12fedb1.png": "indexed8",
+    "电量1/a627855.png": "indexed8",
+    "7aecc95.png": "indexed8",
+    "星期1/ef47a6f.png": "indexed8",
+    "星期1/dbb971d.png": "indexed8",
+    "星期1/e92ad15.png": "indexed8",
+    "星期1/d31c798.png": "indexed8",
+    "星期1/83aac60.png": "indexed8",
+    "星期1/e1a08af.png": "indexed8",
+    "星期1/3860f7b.png": "indexed8",
+    "月份1/b5a64ef.png": "indexed8",
+    "月份1/ad6f563.png": "indexed8",
+    "月份1/bf38f4c.png": "indexed8",
+    "月份1/c496ede.png": "indexed8",
+    "月份1/5097b3a.png": "indexed8",
+    "月份1/df3d358.png": "indexed8",
+    "月份1/b2d7171.png": "indexed8",
+    "月份1/77dad9d.png": "indexed8",
+    "月份1/44eac21.png": "indexed8",
+    "月份1/4c473fe.png": "indexed8",
+    "月份1/d37cd10.png": "indexed8",
+    "月份1/39f6a1d.png": "indexed8",
+    "f58dd25.png": "indexed8",
+    "12ffa16.png": "indexed8",
+    "40e733d.png": "indexed8",
+    "ac78c17.png": "indexed8",
+    "6f39674.png": "indexed8",
+    "6cf1d5a.png": "indexed8",
+    "e5e5430.png": "indexed8",
+    "5df9fe9.png": "indexed8",
+    "f3c15fb.png": "indexed8",
+    "电量2/1279ded.png": "indexed8",
+    "电量2/16d46fe.png": "indexed8",
+    "电量2/cf7f742.png": "indexed8",
+    "电量2/0c599d7.png": "indexed8",
+    "电量2/844d0ef.png": "indexed8",
+    "电量2/ba1b5b6.png": "indexed8",
+    "电量2/367c1d7.png": "indexed8",
+    "电量2/10cc7a4.png": "indexed8",
+    "电量2/39c31b8.png": "indexed8",
+    "电量2/7e6aae6.png": "indexed8",
+    "04f2556.png": "indexed8",
+    "月份2/9705619.png": "indexed8",
+    "月份2/2b30589.png": "indexed8",
+    "月份2/98fb9f1.png": "indexed8",
+    "月份2/c8bd74d.png": "indexed8",
+    "月份2/2f998cd.png": "indexed8",
+    "月份2/e5692a6.png": "indexed8",
+    "月份2/aad2695.png": "indexed8",
+    "月份2/a1513e2.png": "indexed8",
+    "月份2/1f63ee0.png": "indexed8",
+    "月份2/0233c93.png": "indexed8",
+    "月份2/766a872.png": "indexed8",
+    "月份2/6f47cd5.png": "indexed8",
+    "星期2/b4184c6.png": "indexed8",
+    "星期2/20fbfd6.png": "indexed8",
+    "星期2/254e058.png": "indexed8",
+    "星期2/d4f4242.png": "indexed8",
+    "星期2/f6941f6.png": "indexed8",
+    "星期2/9ee7985.png": "indexed8",
+    "星期2/68b2c18.png": "indexed8",
+    "d5eea0b.png": "indexed8",
+    "bbb36db.png": "indexed8",
+    "8f21061.png": "indexed8",
+    "460116f.png": "indexed8",
+    "6e79170.png": "indexed8",
+    "e727356.png": "indexed8",
+    "f9b524d.png": "indexed8",
+    "9f50af7.png": "indexed8",
+    "月份3/b3c435f.png": "indexed8",
+    "月份3/1ea124b.png": "indexed8",
+    "月份3/9b80060.png": "indexed8",
+    "月份3/aac561b.png": "indexed8",
+    "月份3/6d9bde4.png": "indexed8",
+    "月份3/01df813.png": "indexed8",
+    "月份3/dc49ba4.png": "indexed8",
+    "月份3/cc57eeb.png": "indexed8",
+    "月份3/67dfd72.png": "indexed8",
+    "月份3/dfc4c19.png": "indexed8",
+    "月份3/14fffe1.png": "indexed8",
+    "月份3/f36bfe4.png": "indexed8",
+    "星期3/706455d.png": "indexed8",
+    "星期3/2916258.png": "indexed8",
+    "星期3/fc3fc86.png": "indexed8",
+    "星期3/0fe7cfb.png": "indexed8",
+    "星期3/711e715.png": "indexed8",
+    "星期3/9bda333.png": "indexed8",
+    "星期3/308ab2c.png": "indexed8",
+    "f938e6c.png": "indexed8",
+    "电量3/7d056c7.png": "indexed8",
+    "电量3/5c50d38.png": "indexed8",
+    "电量3/86e8d1c.png": "indexed8",
+    "电量3/bd33e12.png": "indexed8",
+    "电量3/a1e27d3.png": "indexed8",
+    "电量3/6b202af.png": "indexed8",
+    "电量3/505907f.png": "indexed8",
+    "电量3/51dcccc.png": "indexed8",
+    "电量3/576c649.png": "indexed8",
+    "电量3/e9e7ee3.png": "indexed8",
+    "6f2475d.png": "indexed8",
+    "072a9c6.png": "indexed8",
+    "bb106f7.png": "indexed8",
+    "e315368.png": "indexed8",
+    "a451e5c.png": "indexed8",
+    "3f9a877.png": "indexed8",
+    "db4e10f.png": "indexed8",
+    "6fb480a.png": "indexed8",
+    "e967f8c.png": "indexed8",
+    "月份4/f2ebcb3.png": "indexed8",
+    "月份4/cb680ed.png": "indexed8",
+    "月份4/d780689.png": "indexed8",
+    "月份4/a4b9f60.png": "indexed8",
+    "月份4/d736d15.png": "indexed8",
+    "月份4/d9d4ab8.png": "indexed8",
+    "月份4/882a5b0.png": "indexed8",
+    "月份4/81ac642.png": "indexed8",
+    "月份4/83abe71.png": "indexed8",
+    "月份4/1944250.png": "indexed8",
+    "月份4/d616489.png": "indexed8",
+    "月份4/222519a.png": "indexed8",
+    "星期4/49e4f7c.png": "indexed8",
+    "星期4/912a71d.png": "indexed8",
+    "星期4/f97b744.png": "indexed8",
+    "星期4/1470d90.png": "indexed8",
+    "星期4/3e5063e.png": "indexed8",
+    "星期4/78e2b1e.png": "indexed8",
+    "星期4/f7782d9.png": "indexed8",
+    "6e73776.png": "indexed8",
+    "电量4/bf67955.png": "indexed8",
+    "电量4/a57d336.png": "indexed8",
+    "电量4/3739827.png": "indexed8",
+    "电量4/6d9f439.png": "indexed8",
+    "电量4/ab47f63.png": "indexed8",
+    "电量4/030a677.png": "indexed8",
+    "电量4/d5d0ca0.png": "indexed8",
+    "电量4/b38826f.png": "indexed8",
+    "电量4/479340e.png": "indexed8",
+    "电量4/c999d02.png": "indexed8",
+    "4a19386.png": "indexed8",
+    "d59ea6b.png": "indexed8",
+    "f2a10b6.png": "indexed8",
+    "3e2c1a8.png": "indexed8",
+    "afcc335.png": "indexed8",
+    "b7b3162.png": "indexed8",
+    "_preview/b31c8e2.png": "indexed8",
+    "_preview/800eb88.png": "indexed8",
+    "_preview/ded977e.png": "indexed8",
+    "_preview/ba85b1f.png": "indexed8",
+    "22df15a.png": "indexed8",
+    "499b344.png": "indexed8",
+    "795ef0c.png": "indexed8",
+    "a890e2c.png": "indexed8",
+    "ae65205.png": "indexed8",
+    "b4789a6.png": "indexed8",
+    "f2287b2.png": "indexed8",
+    "f9efeac.png": "indexed8",
+    "8e28b9f.png": "indexed8",
+    "9d731bb.png": "indexed8",
+    "c2fea7d.png": "indexed8",
+    "aa6409d.png": "indexed8",
+    "824f0f2.png": "indexed8",
+    "4a45ace.png": "indexed8",
+    "d10f903.png": "indexed8",
+    "af2eb98.png": "indexed8",
+    "ce65913.png": "indexed8",
+    "8f8692f.png": "indexed8",
+    "c13c44d.png": "indexed8",
+    "0e3c062.png": "indexed8",
+    "9fa8d49.png": "indexed8",
+    "_preview/5d3e7b7.png": "indexed8",
+    "_preview/851aad8.png": "indexed8",
+    "_preview/da13552.png": "indexed8",
+    "_preview/a8b66ed.png": "indexed8",
+    "8551dbd.png": "indexed8",
+    "939bf1c.png": "indexed8",
+    "c562940.png": "indexed8",
+    "c6018ea.png": "indexed8",
+    "5539f40.png": "indexed8",
+    "5fa0736.png": "indexed8",
+    "85a718c.png": "indexed8",
+    "4156f21.png": "indexed8",
+    "69546d9.png": "indexed8",
+    "cfc8f00.png": "indexed8",
+    "97b2d63.png": "indexed8",
+    "日出日落/cfb0c91.png": "indexed8",
+    "日出日落/8fd5153.png": "indexed8",
+    "日出日落/b48a2b6.png": "indexed8",
+    "日出日落/1ef4e34.png": "indexed8",
+    "日出日落/c2761d8.png": "indexed8",
+    "日出日落/d044fad.png": "indexed8",
+    "日出日落/486351b.png": "indexed8",
+    "日出日落/6fcd456.png": "indexed8",
+    "日出日落/094c24c.png": "indexed8",
+    "日出日落/93d7c4f.png": "indexed8",
+    "日出日落/862ff56.png": "indexed8",
+    "63866f6.png": "indexed8",
+    "5d35eea.png": "indexed8",
+    "12f554a.png": "indexed8",
+    "122光照日出日落弧/f7e3e48.png": "indexed8",
+    "122光照日出日落弧/5d47ab6.png": "indexed8",
+    "122光照日出日落弧/001101f.png": "indexed8",
+    "122光照日出日落弧/8bbc96d.png": "indexed8",
+    "122光照日出日落弧/b9c15fe.png": "indexed8",
+    "122光照日出日落弧/6d60316.png": "indexed8",
+    "122光照日出日落弧/b562670.png": "indexed8",
+    "122光照日出日落弧/8ba398c.png": "indexed8",
+    "122光照日出日落弧/9042d63.png": "indexed8",
+    "1712c71.png": "indexed8",
+    "0e7b2de.png": "indexed8",
+    "103337c.png": "indexed8",
+    "b31f9c3.png": "indexed8",
+    "dfcd5e5.png": "indexed8",
+    "39e0186.png": "indexed8",
+    "5aea0cd.png": "indexed8",
+    "bee99f3.png": "indexed8",
+    "122光照日出日落弧/9bb351f.png": "indexed8",
+    "122光照日出日落弧/bfe65f0.png": "indexed8",
+    "122光照日出日落弧/abfb7c6.png": "indexed8",
+    "122光照日出日落弧/0fea244.png": "indexed8",
+    "122光照日出日落弧/bb50e30.png": "indexed8",
+    "122光照日出日落弧/b1121c1.png": "indexed8",
+    "122光照日出日落弧/5433467.png": "indexed8",
+    "122光照日出日落弧/63e4031.png": "indexed8",
+    "122光照日出日落弧/9a25a9f.png": "indexed8",
+    "6385079.png": "indexed8",
+    "_preview/33944b0.png": "indexed8",
+    "_preview/25eb98b.png": "indexed8",
+    "944cf52.png": "indexed8",
+    "c1218b1.png": "indexed8",
+    "73121cd.png": "indexed8",
+    "5e9e5aa.png": "indexed8",
+    "1292eb9.png": "indexed8",
+    "bfc2729.png": "indexed8",
+    "a881a38.png": "indexed8",
+    "6afa2be.png": "indexed8",
+    "163复杂数据液晶/5e9e5aa.png": "indexed8",
+    "163复杂数据液晶/fc0464b.png": "indexed8",
+    "163复杂数据液晶/eb4f1df.png": "indexed8",
+    "163复杂数据液晶/84660a3.png": "indexed8",
+    "163复杂数据液晶/660ebe9.png": "indexed8",
+    "163复杂数据液晶/e19276b.png": "indexed8",
+    "163复杂数据液晶/ca64564.png": "indexed8",
+    "163复杂数据液晶/0a6ffa0.png": "indexed8",
+    "163复杂数据液晶/7bb6814.png": "indexed8",
+    "163复杂数据液晶/9f99352.png": "indexed8",
+    "163复杂数据液晶/f75bd57.png": "indexed8",
+    "163复杂数据液晶/597a3ac.png": "indexed8",
+    "163复杂数据液晶/b3273ba.png": "indexed8",
+    "163复杂数据液晶/95c7b07.png": "indexed8",
+    "163复杂数据液晶/eb3e7fe.png": "indexed8",
+    "163复杂数据液晶/dd97da5.png": "indexed8",
+    "163复杂数据液晶/aaa3e3a.png": "indexed8",
+    "163复杂数据液晶/b40727e.png": "indexed8",
+    "163复杂数据液晶/744ff1d.png": "indexed8",
+    "163复杂数据液晶/77e8c25.png": "indexed8",
+    "163复杂数据液晶/acc3f6b.png": "indexed8",
+    "163复杂数据液晶/e9488f7.png": "indexed8",
+    "163复杂数据液晶/6dbf602.png": "indexed8",
+    "163复杂数据液晶/57b1f9c.png": "indexed8",
+    "163复杂数据液晶/993baa4.png": "indexed8",
+    "163复杂数据液晶/259f4e9.png": "indexed8",
+    "163复杂数据液晶/13c3795.png": "indexed8",
+    "f8782d4.png": "indexed8",
+    "921e087.png": "indexed8",
+    "电量/d00434f.png": "indexed8",
+    "电量/3512295.png": "indexed8",
+    "电量/a451a63.png": "indexed8",
+    "电量/e3d8e1c.png": "indexed8",
+    "电量/b03cd0e.png": "indexed8",
+    "电量/dc1ba14.png": "indexed8",
+    "电量/113e42c.png": "indexed8",
+    "电量/22481b6.png": "indexed8",
+    "电量/4157a34.png": "indexed8",
+    "电量/8b63e80.png": "indexed8",
+    "电量/b9af3d5.png": "indexed8",
+    "163复杂数据液晶/9891763.png": "indexed8",
+    "163复杂数据液晶/047f6b5.png": "indexed8",
+    "163复杂数据液晶/e81c8a1.png": "indexed8",
+    "163复杂数据液晶/e7fffee.png": "indexed8",
+    "163复杂数据液晶/72a8948.png": "indexed8",
+    "163复杂数据液晶/ad9c98f.png": "indexed8",
+    "163复杂数据液晶/36b6203.png": "indexed8",
+    "163复杂数据液晶/a1f55f2.png": "indexed8",
+    "163复杂数据液晶/c1218b1.png": "indexed8",
+    "163复杂数据液晶/59b46b2.png": "indexed8",
+    "163复杂数据液晶/a4b9e32.png": "indexed8",
+    "163复杂数据液晶/e5bf8f0.png": "indexed8",
+    "163复杂数据液晶/eba734d.png": "indexed8",
+    "163复杂数据液晶/16f7f2e.png": "indexed8",
+    "163复杂数据液晶/069b635.png": "indexed8",
+    "163复杂数据液晶/fb2fa19.png": "indexed8",
+    "163复杂数据液晶/d463444.png": "indexed8",
+    "163复杂数据液晶/d6c9431.png": "indexed8",
+    "163复杂数据液晶/2dc5f96.png": "indexed8",
+    "163复杂数据液晶/e0ec0af.png": "indexed8",
+    "34cf4a5.png": "indexed8",
+    "天气/b5e5b89.png": "indexed8",
+    "天气/c142c64.png": "indexed8",
+    "天气/6e8db3d.png": "indexed8",
+    "天气/91c176f.png": "indexed8",
+    "天气/4035ffc.png": "indexed8",
+    "天气/d6d130d.png": "indexed8",
+    "天气/4d2be9c.png": "indexed8",
+    "天气/fdb678d.png": "indexed8",
+    "天气/b674916.png": "indexed8",
+    "天气/5e2ceb9.png": "indexed8",
+    "天气/5a58211.png": "indexed8",
+    "天气/84e767f.png": "indexed8",
+    "天气/0ee10eb.png": "indexed8",
+    "天气/d97bc7a.png": "indexed8",
+    "天气/0c2ae05.png": "indexed8",
+    "天气/f0341d4.png": "indexed8",
+    "天气/53f01bb.png": "indexed8",
+    "天气/f3865f6.png": "indexed8",
+    "1b4140b.png": "indexed8",
+    "163复杂数据液晶/e8ceb5b.png": "indexed8",
+    "163复杂数据液晶/cb32894.png": "indexed8",
+    "163复杂数据液晶/ee8b003.png": "indexed8",
+    "163复杂数据液晶/042530d.png": "indexed8",
+    "163复杂数据液晶/199d9e3.png": "indexed8",
+    "163复杂数据液晶/aa4c507.png": "indexed8",
+    "163复杂数据液晶/1cd45f0.png": "indexed8",
+    "163复杂数据液晶/38a767d.png": "indexed8",
+    "163复杂数据液晶/46fe1ca.png": "indexed8",
+    "163复杂数据液晶/1d5ee32.png": "indexed8",
+    "163复杂数据液晶/2803a20.png": "indexed8",
+    "163复杂数据液晶/09c4f3a.png": "indexed8",
+    "163其余切图/d2415aa.png": "indexed8",
+    "163其余切图/3f4997a.png": "indexed8",
+    "163其余切图/62ea5e4.png": "indexed8",
+    "_preview/5d03457.png": "indexed8",
+    "1_370805a.png": "indexed8",
+    "_preview/样式1息屏预览图.png": "indexed8",
+    "_preview/样式1亮屏预览图.png": "indexed8",
+    "电量/3512295_3512295.png": "indexed8",
+    "2764c7f.png": "indexed8",
+    "886eac6.png": "indexed8",
+    "_emptyImage.png": "indexed8",
+    "resources/c976cdb.png": "indexed8",
+    "resources/8305034.png": "indexed8",
+    "resources/6cbf750.png": "indexed8",
+    "resources/d4f1e77.png": "indexed8",
+    "resources/cbc30c8.png": "indexed8",
+    "resources/c905b34.png": "indexed8",
+    "resources/0ba7c22.png": "indexed8",
+    "resources/c56bc46.png": "indexed8",
+    "resources/b0cefba.png": "indexed8",
+    "resources/b6e7543.png": "indexed8",
+    "resources/4483d4e.png": "indexed8",
+    "resources/ec59853.png": "indexed8",
+    "resources/1a41e51.png": "indexed8",
+    "resources/057e518.png": "indexed8",
+    "resources/e3daf17.png": "indexed8",
+    "resources/e8e8d95.png": "indexed8",
+    "resources/e10ade0.png": "indexed8",
+    "resources/f05e206.png": "indexed8",
+    "4fe8d11.png": "indexed8",
+    "a8b653b.png": "indexed8",
+    "f09972d.png": "indexed8",
+    "ceb08a0.png": "indexed8",
+    "resources/cf0524d.png": "indexed8",
+    "P67 表盘/7a3950b.png": "indexed8",
+    "P67 表盘/67f0fa7.png": "indexed8",
+    "P67 表盘/7e0e89c.png": "indexed8",
+    "P67 表盘/972a5e4.png": "indexed8",
+    "P67 表盘/fb4115e.png": "indexed8",
+    "P67 表盘/0873788.png": "indexed8",
+    "P67 表盘/ef4698e.png": "indexed8",
+    "P67 表盘/5a032d1.png": "indexed8",
+    "P67 表盘/b5d3990.png": "indexed8",
+    "P67 表盘/3efc345.png": "indexed8",
+    "P67 表盘/20bfe42.png": "indexed8",
+    "fbfd3af.png": "indexed8",
+    "b113652.png": "indexed8",
+    "dc12273.png": "indexed8",
+    "2fee46b.png": "indexed8",
+    "37a8ef7.png": "indexed8",
+    "date/09967bb.png": "indexed8",
+    "date/7c06f04.png": "indexed8",
+    "date/e1105b9.png": "indexed8",
+    "date/cb850b2.png": "indexed8",
+    "date/354e33b.png": "indexed8",
+    "date/ec4f10c.png": "indexed8",
+    "date/f8901cf.png": "indexed8",
+    "date/17e5e54.png": "indexed8",
+    "date/b4904f9.png": "indexed8",
+    "date/4b6d515.png": "indexed8",
+    "cfae89b.png": "indexed8",
+    "23fd149.png": "indexed8"
+  },
+  "dataSource": {},
+  "isSlotFollowing": false,
+  "introData": {},
+  "aodDisplayMode": "single"
+}
