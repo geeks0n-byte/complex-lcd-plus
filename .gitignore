@@ -5,3 +5,7 @@ src/output/tests/
 *.lnk
 __pycache__/
 *.pyc
+
+# Local build artifacts (not for git)
+ComplexLCDPlus.info
+src/AOD/
