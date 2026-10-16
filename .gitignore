@@ -1,6 +1,5 @@
-﻿# Local compiler output. The published build at the repo root is tracked.
+﻿# Local compiler output. Ship the .face via GitHub Releases only (not git).
 *.face
-!/ComplexLCDPlus.face
 src/output/compiler.log
 src/output/tests/
 *.lnk

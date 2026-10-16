@@ -12,6 +12,7 @@ Outputs:             project\\{active,A,B,C}.fprj + project\\images\\*  (regener
 import colorsys
 import hashlib
 import math
+import os
 import re
 import shutil
 import struct
@@ -30,9 +31,36 @@ AOD = PROJ / "AOD"
 AOD_IMG = AOD / "images"
 PREV = ROOT / "previews"
 OUT = ROOT / "output"
-COMPILER = Path(r"C:\Users\Giga\Documents\Projects\miband\tools\easyface\Compiler.exe")
 ASSETS = ROOT / "tools" / "assets"     # pre-rendered label (see tools/make_assets.py)
 DIST = ROOT.parent                     # repo root ComplexLCDPlus.face
+
+
+def resolve_compiler() -> Path:
+    """EasyFace Compiler.exe via EASYFACE_HOME / EASYFACE_COMPILER, else common relatives."""
+    env = os.environ.get("EASYFACE_COMPILER") or os.environ.get("EASYFACE_HOME")
+    if env:
+        p = Path(env)
+        if p.is_dir():
+            p = p / "Compiler.exe"
+        if p.is_file():
+            return p
+        raise SystemExit(f"EASYFACE_* set but Compiler.exe not found: {env}")
+    candidates = [
+        Path.home() / "Documents" / "Projects" / "miband" / "tools" / "easyface" / "Compiler.exe",
+        # Repos/complex-lcd-plus → Documents/Projects/miband/...
+        ROOT.parents[2] / "Projects" / "miband" / "tools" / "easyface" / "Compiler.exe",
+        ROOT.parent / "tools" / "easyface" / "Compiler.exe",
+    ]
+    for c in candidates:
+        if c.is_file():
+            return c
+    raise SystemExit(
+        "EasyFace Compiler.exe not found. Set EASYFACE_HOME to the EasyFace folder "
+        "(containing Compiler.exe) or EASYFACE_COMPILER to the full exe path."
+    )
+
+
+COMPILER = resolve_compiler()
 
 FACE_ID = "29100101"
 DISPLAY_NAME = "Complex LCD+"

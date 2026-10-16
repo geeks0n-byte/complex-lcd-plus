@@ -8,9 +8,9 @@ A cleaned-up, rebuilt take on Xiaomi’s stock **Complex LCD** layout: eight col
 
 ## Download
 
-Grab **`ComplexLCDPlus.face`** from this repo, or from the [latest Release](https://github.com/geeks0n-byte/complex-lcd-plus/releases/latest).
+Grab **`ComplexLCDPlus.face`** from the [latest Release](https://github.com/geeks0n-byte/complex-lcd-plus/releases/latest) (the binary is no longer tracked in git).
 
-Source, EasyFace project, and build script are in [`src/`](src/).
+Source, EasyFace project, and build script are in [`src/`](src/). Build needs EasyFace Gen2 `Compiler.exe` — set `EASYFACE_HOME` to that folder (or `EASYFACE_COMPILER` to the exe), or place it where the script can find it under `Documents/Projects/miband/tools/easyface`.
 
 ## Install (minstall)
 
