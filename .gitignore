@@ -1,4 +1,4 @@
-﻿# Local compiler output. Ship the .face via GitHub Releases only (not git).
+# Local compiler output. Ship the .face via GitHub Releases only (not git).
 *.face
 src/output/compiler.log
 src/output/tests/
@@ -8,4 +8,5 @@ __pycache__/
 
 # Local build artifacts (not for git)
 ComplexLCDPlus.info
-src/AOD/
+# EasyFace/build may recreate this as a symlink to project/AOD
+src/AOD
