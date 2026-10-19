@@ -1,0 +1,14 @@
+# Local compiler output. Ship the .face via GitHub Releases only (not git).
+*.face
+src/output/compiler.log
+src/output/tests/
+*.lnk
+__pycache__/
+*.pyc
+
+# Local build artifacts (not for git)
+ComplexLCDPlus.info
+# Build may recreate this as a symlink to project/AOD
+src/AOD
+# Stock face unpack (local reference only, not redistributable)
+src/stock/
